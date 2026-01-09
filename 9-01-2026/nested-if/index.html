@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        //task - 1(calculator)
+
+        // let value1 = Number(prompt("Entr the first value: "))
+        // let value2 = Number(prompt("Entr the second value: "))
+        // let operator = prompt("enter the operator: ")
+
+        // if (operator == "+") {
+        //     let sum = value1 + value2;
+        //     console.log("your addition value is " + sum);
+        // }
+        // else if (operator == "-") {
+        //     let sum = value1 - value2;
+        //     console.log("your substraction value is " + sum);
+        // }
+        // else if (operator == "*") {
+        //     let sum = value1 * value2;
+        //     console.log("your multiplication value is " + sum);
+        // }
+        // else if (operator == "/") {
+        //     let sum = value1 / value2;
+        //     console.log("your division value is " + sum);
+        // }
+
+        // else {
+        //     console.log("invalid operator!")
+        // }
+
+
+        //task - 2 (offer)
+
+        // let bill = Number(prompt("enter the value; "));
+        // if (bill < 100) {
+        //     console.log("no discount so your total bill amount is: " + bill)
+        // }
+
+        // else if (bill <= 200) {
+        //     let offer = bill * (10 / 100);
+        //     let final = bill - offer;
+        //     console.log("you have 10% offer so your bill is : " + final)
+        // }
+        // else if (bill <= 300) {
+        //     let offer = bill * (20 / 100);
+        //     let final = bill - offer;
+        //     console.log("you have 20% offer so your bill is : " + final)
+        // }
+        // else if (bill <= 400) {
+        //     let offer = bill * (30 / 100);
+        //     let final = bill - offer;
+        //     console.log("you have 30% offer so your bill is : " + final)
+        // }
+        // else if (bill <= 500) {
+        //     let offer = bill * (40 / 100);
+        //     let final = bill - offer;
+        //     console.log("you have 40% offer so your bill is : " + final)
+        // }
+
+
+        // else {
+        //     let offer = bill * (50 / 100);
+        //     let final = bill - offer;
+        //     console.log("you have 50% discount so your bill is : " + final)
+        // }
+
+
+        //task - 3 (score)
+        debugger;
+        let score = Number(prompt("enter the score; "));
+        let quater;
+        let half;
+        let century;
+
+        if(score ==25){
+            quater=score;
+        }
+        else if(score ==50){
+             half=score;
+        }
+        else if(score ==100){
+             century=score;
+        }
+        else{
+            console.log("unable to calculate!")
+        }
+
+        if(Boolean(quater)){
+            console.log("quater")
+        }
+
+        else if(Boolean(half)){
+              console.log("half")
+        }
+        else if(Boolean(century)){
+              console.log("century")
+        }
+
+
+        //task - 5 (biggest number)
+        // debugger;
+        // let a = Number(prompt("enter a; "));//2
+        // let b = Number(prompt("enter b; "));//10
+        // let c = Number(prompt("enter c; "));//6
+
+        // if (a == b && a === c && b == a) {
+        //     console.log("three values are equal!")
+        // }
+
+        // else if (a == b) {
+        //     if (a > c) {
+        //         console.log("a and b are equal and biggest!")
+        //     }
+        //     else {
+        //         console.log("c is biggest!")
+        //     }
+        // }
+
+        // else if (a == c) {
+        //     if (a > b) {
+        //         console.log("a and c are equal and biggest!")
+        //     } else {
+        //         console.log("b is biggest!")
+
+        //     }
+        // }
+
+        // else if (b == c) {
+        //     if (b > a) {
+        //         console.log("b and c are equal and biggest!")
+        //     } else {
+        //         console.log("a is biggest!")
+
+        //     }
+        // }
+
+        // else if (a > b) {
+        //     if (c > a) {
+        //         console.log("c is biggest value!")
+        //     }
+        //     else {
+        //         console.log("a is biggest value!")
+        //     }
+        // }
+        // else if (a < b) {
+        //     if (b > c) {
+        //         console.log("b is biggest value!")
+        //     } else {
+        //         console.log("c is biggest value!")
+        //     }
+        // }
+        // else {
+
+        // }
+
+
+
+        //task - 6 (smallest number)
+
+        // let a = Number(prompt("enter a; "));//2
+        // let b = Number(prompt("enter b; "));//10
+        // let c = Number(prompt("enter c; "));//6
+
+        // if (a == b && a === c && b == a) {
+        //     console.log("three values are equal!")
+        // }
+
+        // else if (a == b) {
+        //     if (a < c) {
+        //         console.log("a and b are equal and smaller!")
+        //     }
+        //     else {
+        //         console.log("c is smaller!")
+        //     }
+        // }
+
+        // else if (a == c) {
+        //     if (a < b) {
+        //         console.log("a and c are equal and smaller!")
+        //     } else {
+        //         console.log("b is smaller!")
+
+        //     }
+        // }
+
+        // else if (b == c) {
+        //     if (b < a) {
+        //         console.log("b and c are equal and smaller!")
+        //     } else {
+        //         console.log("a is smaller!")
+
+        //     }
+        // }
+
+        // else if (a < b) {
+        //     if (a>c) {
+        //         console.log("c is smaller value!")
+        //     }
+        //     else {
+        //         console.log("a is smaller value!")
+        //     }
+        // }
+        // else if (a > b) {
+        //     if (b > c) {
+        //         console.log("c is smaller value!")
+        //     } else {
+        //         console.log("b is smaller value!")
+        //     }
+        // }
+        // else {
+
+        // }
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
