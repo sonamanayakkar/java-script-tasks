@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        //calender
+
+        let year = prompt("enter yearh:")
+        let option = prompt("enter ypur month:")
+
+        switch (option) {
+            case "january":
+            case "1":
+                console.log("days : 31")
+                break;
+
+            case "February":
+            case "2":
+
+                if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+                    console.log("given year is leap so")
+                    console.log("days : 29")
+                } else {
+                    console.log("days : 28")
+                }
+
+                break;
+
+            case "March":
+            case "3":
+                console.log("days : 31")
+                break;
+
+            case "April":
+            case "4":
+                console.log("days : 30")
+                break;
+
+            case "May":
+            case "5":
+                console.log("days : 31")
+                break;
+
+            case "June":
+            case "6":
+                console.log("days : 30")
+                break;
+
+            case "July":
+            case "7":
+                console.log("days : 31")
+                break;
+
+            case "August":
+            case "8":
+                console.log("days : 31")
+                break;
+
+            case "September":
+            case "9":
+                console.log("days : 30")
+                break;
+
+            case "October":
+            case "10":
+                console.log("days : 31")
+                break;
+
+            case "November":
+            case "11":
+                console.log("days : 30")
+                break;
+
+            case "December":
+            case "12":
+                console.log("days : 31")
+                break;
+
+            default:
+                alert("invalid option or invalid month!")
+
+
+        }
+
+
+    </script>
+
+</body>
+
+</html>
