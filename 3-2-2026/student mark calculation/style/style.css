@@ -1,0 +1,64 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container .info{
+    background:linear-gradient(to bottom, rgb(251, 152, 244), rgb(146, 233, 253));
+    
+    width: 30%;
+    padding: 20px;
+}
+.container .info  {
+     display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container .info  .box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .info  .box input{
+    height: 5vh;
+    padding: 0 20px;
+}
+
+.container .info  button{
+     height: 6vh;
+     border-radius: 5px;
+     background-color: rgb(0, 0, 0);
+     color: white;
+     border: none;
+     cursor: pointer;
+}
+
+.container table{
+    border-collapse: collapse;
+}
+.container table tr{
+    text-align: center;
+    
+}
+.container table th,td{
+    font-size: 2rem;
+    padding: 20px;
+}

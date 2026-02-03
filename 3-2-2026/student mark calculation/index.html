@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student marks</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="info">
+            
+                <div class="box">
+                    <label for="" >STUDENT NAME</label>
+                    <input type="text" placeholder="Enter name here..." id="sname" value="">
+                </div>
+                <div class="box " >
+                     <label for="">TAMIL</label>
+                    <input type="text" id="subject1" class="subjects" value="" maxlength="3">
+                </div>
+                <div class="box ">
+                     <label for="">ENGLISH</label>
+                    <input type="text" id="subject2"  class="subjects" value="" maxlength="3">
+                </div>
+                <div class="box ">
+                     <label for="">MATHS</label>
+                    <input type="text" id="subject3"  class="subjects" maxlength="3">
+                </div>
+                <div class="box ">
+                     <label for="">PHYSICS</label>
+                    <input type="text" id="subject4"  class="subjects" maxlength="3">
+                </div>
+                <div class="box ">
+                     <label for="">CHEMISTRY</label>
+                    <input type="text" id="subject5"  class="subjects" maxlength="3">
+                </div>
+                <div class="box ">
+                     <label for="">COMPUTER SCIENCE</label>
+                    <input type="text" id="subject6"  class="subjects" maxlength="3">
+                </div>
+
+                <button type="" onclick="calulate()">SUBMIT</button>
+                
+            
+        </div>
+
+       
+
+        <table border="1">
+            <tr>
+                <th>Student name</th>
+                <th>Total Marks</th>
+                <th>Average</th>
+            </tr>
+            <tr>
+                <td id="nameshow"></td>
+                <td id="total"></td>
+                <td id="avg"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
