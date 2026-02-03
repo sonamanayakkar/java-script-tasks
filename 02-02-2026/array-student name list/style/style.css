@@ -1,0 +1,37 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.container .box1{
+    /* border: red solid; */
+     display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container .box1 input{
+    padding: 0 30px;
+}
+.container .box1 input,button{
+    height: 7vh;
+    width: 500px;
+}
+.container table{
+    border-collapse: collapse;
+    width: 50%;
+}
+.container table tr td,th{
+   padding: 30px;
+}

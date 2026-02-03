@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student lists</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box1">
+            <input type="text" placeholder="Enter name here...." id="input">
+            <button type="submit" onclick="add()">Enter</button>
+            <!-- <button type="submit" onclick="update()">Reset</button> -->
+        </div>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>S.NO</th>
+                    <th>NAME</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <!-- <tr>
+                    <td>1</td>
+                    <td>sonu</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>deepan</td>
+                </tr> -->
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <h3>total no of students: <span id="total"> 0</span></h3>
+                    </td>
+
+                </tr>
+            </tfoot>
+        </table>
+
+    </div>
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
